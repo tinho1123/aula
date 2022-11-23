@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 2);
+
+}
+
+header {
+  background-color: rgba(111, 0, 255, 0.877);  
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  height: 50px;
+}
+
+main {
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(111, 0, 255, 0.877);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#botaoSim {
+  background-color: green;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#botaoNao {
+  background-color: red;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
